@@ -6,3 +6,4 @@ class LoadingIndicator extends StatelessWidget {
         child: CircularProgressIndicator(),
       );
 }
+
