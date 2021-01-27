@@ -16,8 +16,8 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 
-![UI](/home.PNG)
+![UI](/assets/home.PNG)
 
 
-![UI](/detailpage.PNG)
+![UI](/assets/detailpage.PNG)
 

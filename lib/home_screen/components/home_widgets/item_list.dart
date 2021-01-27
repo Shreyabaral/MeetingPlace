@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:meeting_place_app/homeScreen/components/home_widgets/rounded_button.dart';
+import 'package:meeting_place_app/home_screen/components/home_widgets/rounded_button.dart';
 import 'package:meeting_place_app/models/meeting_place.dart';
 
 

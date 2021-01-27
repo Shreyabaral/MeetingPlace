@@ -5,7 +5,7 @@ import 'package:meeting_place_app/bloc/meetingplace/meeting_event.dart';
 import 'package:meeting_place_app/bloc/meetingplace/meeting_state.dart';
 import 'package:meeting_place_app/common/loading_indicator.dart';
 import 'package:meeting_place_app/data/repository/meeting_place_repository.dart';
-import 'package:meeting_place_app/homeScreen/detail_screen/detail_screen.dart';
+import 'package:meeting_place_app/home_screen/detail_screen/detail_screen.dart';
 import 'package:lazy_load_scrollview/lazy_load_scrollview.dart';
 import 'item_list.dart';
 
@@ -15,7 +15,7 @@ class HomeScreen extends StatelessWidget {
     return Container(
       height: MediaQuery.of(context).size.height,
       child: BlocProvider(
-        create: (context) => MeetingBloc(),
+        create: (context) => MeetingBloc(repository:Repository()),
         child: ItemHome(),
       ),
     );

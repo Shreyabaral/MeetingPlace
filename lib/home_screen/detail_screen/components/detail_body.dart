@@ -1,8 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:meeting_place_app/models/meeting_place.dart';
-
-
 import 'add_button.dart';
 import 'cart_counter.dart';
 import 'facilities.dart';
@@ -24,7 +22,7 @@ class DetailBody extends StatelessWidget {
               ClipRRect(
                 borderRadius: BorderRadius.circular(30.0),
                 child: Container(
-                  height: MediaQuery.of(context).size.height / 2.3,
+                  height: MediaQuery.of(context).size.height / 2.5,
                   width: MediaQuery.of(context).size.width,
                   child: Image.network(
                     product.largeImageURL,
