@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'components/body.dart';
+import 'components/home_widgets/heading.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -44,7 +45,25 @@ class HomeScreen extends StatelessWidget {
         //
         // )],
       ),
-      body: HomeBody(),
+      body: Container(
+        height: MediaQuery.of(context).size.height,
+
+        child:Stack(
+
+            alignment: Alignment.topCenter,
+            children: [
+
+              Padding(
+                padding: EdgeInsets.only(top:MediaQuery.of(context).size.height/9),
+                child: HomeBody(),
+              ),
+              Container(
+                  width: MediaQuery.of(context).size.width,
+
+                  child: Heading()),]),
+
+
+      ),
     ));
   }
 }

@@ -1,3 +1,7 @@
-abstract class MeetingEvent {}
+abstract class MeetingEvent {
+  const MeetingEvent();
+}
 
-class MeetingLoadEvent extends MeetingEvent {}
+class MeetingFetchEvent extends MeetingEvent {
+  const MeetingFetchEvent();
+}
