@@ -22,7 +22,7 @@ class ItemList extends StatelessWidget {
                   gradient: LinearGradient(
                       begin: Alignment.topCenter,
                       end: Alignment.bottomCenter,
-                      colors: [Colors.grey[50], Colors.white])),
+                      colors: [ Colors.grey[50], Colors.white])),
             padding:
             EdgeInsets.all(MediaQuery.of(context).size.width / 27),
 

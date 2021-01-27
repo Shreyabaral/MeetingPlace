@@ -54,7 +54,7 @@ class HomeScreen extends StatelessWidget {
             children: [
 
               Padding(
-                padding: EdgeInsets.only(top:MediaQuery.of(context).size.height/9),
+                padding: EdgeInsets.only(top:MediaQuery.of(context).size.height/5),
                 child: HomeBody(),
               ),
               Container(
